@@ -46,7 +46,7 @@ body {
     margin-top: 12px;
     margin-bottom: 0px;
     padding: 14px 9px 12px;
-    font-family: 'Montserrat Semi Bold';
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 12px;
     line-height: 20px;
@@ -99,7 +99,8 @@ body {
 }
 
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
-    color: #a30e22;
+    color: black/*#a30e22*/
+    ;
 }
 
 .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
@@ -131,19 +132,20 @@ body {
 
 #main-header {
     text-align: center;
-    font-family: 'Montserrat Extra Bold';
+    font-family: 'Montserrat', sans-serif;
     font-size: 4em;
     letter-spacing: .08em;
     font-weight: 600;
     line-height: 3em;
     margin: none;
-    background: url(https://comtechp7.hypotheses.org/files/2016/09/digital.gif);
+    color: white;
+    /*background: url(https://comtechp7.hypotheses.org/files/2016/09/digital.gif);
     filter: invert(100%);
-    -webkit-filter: invert(100%);
+    -webkit-filter: invert(100%);*/
     background-position: center;
     background-size: auto;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    /*-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;*/
 }
 
 #info-wrapper {
@@ -208,10 +210,10 @@ body {
 
 #info-container3 {
     /*float: left;
-  max-width: 25%;
-  min-width: 25%;
-  max-height: inherit;
-  padding-top: 25px;*/
+    max-width: 25%;
+    min-width: 25%;
+    max-height: inherit;
+    padding-top: 25px;*/
     background-color: rgb(54, 0, 103);
     text-align: center;
 }
@@ -226,10 +228,10 @@ body {
 
 #info-container4 {
     /*float: left;
-  max-width: 25%;
-  min-width: 25%;
-  max-height: inherit;
-  padding-top: 25px;*/
+    max-width: 25%;
+    min-width: 25%;
+    max-height: inherit;
+    padding-top: 25px;*/
     background-color: rgb(126, 58, 0);
     text-align: center;
 }
