@@ -166,10 +166,11 @@ body {
 }
 
 .box {
-    display: inline-block;
+    display: inline;
     width: 25%;
     height: 260px;
     margin: 0;
+    text-align: center;
 }
 
 #info-container1 {
