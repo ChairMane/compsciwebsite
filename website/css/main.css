@@ -5,107 +5,39 @@ body {
 }
 
 #page-wrapper {
-    height: 940px;
+    height: 900px;
     min-height: 100%;
     width: 100%;
-    background-color: transparent;
+    background-color: rgb(54, 54, 54);
 }
 
 #header-wrapper {
     width: 100%;
     height: 100%;
-    background-color: #4c5560;
-    background-image: -webkit-radial-gradient(circle farthest-corner at 104% -25%, #a7afb9, transparent);
-    background-image: radial-gradient(circle farthest-corner at 104% -25%, #a7afb9, transparent);
+    background-image: url(http://orig07.deviantart.net/0ee0/f/2016/241/1/8/princepal_ui_ux_deisgner_by_princepal-daft6yb.jpg);
+    background-size: cover;
 }
 
 #navbar-wrapper {
-    height: 95px;
-    background: transparent;
+    height: 60px;
+    background: rgba(6, 6, 6, 0.1);
+    padding: 6px 30px 6px 30px;
     max-width: 100%;
+    border-bottom: 1px solid white;
 }
 
-#navbar-area {
-    position: static;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    display: block;
-    height: 70px;
-    margin-top: 0px;
-    margin-right: 5px;
-    margin-left: auto;
-    float: right;
-    clear: none;
+#navbar-wrapper2 {
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+    background: transparent;
     text-align: center;
 }
 
-.nav-link {
-    width: 130px;
-    max-width: 130px;
-    margin-top: 12px;
-    margin-bottom: 0px;
-    padding: 14px 9px 12px;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    border-left: 1px solid white;
-}
-
-.w-nav-link {
-    position: relative;
-    display: inline-block;
-    vertical-align: top;
-    text-decoration: none;
-    padding: 20px;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.hvr-sweep-to-right {
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    -webkit-transition-property: color;
-    transition-property: color;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-}
-
-.hvr-sweep-to-right:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: white;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-}
-
-.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
-    color: black/*#a30e22*/
-    ;
-}
-
-.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
+#navbar-logo {
+    width: 60px;
+    height: 60px;
+    margin: 0;
 }
 
 #content-wrapper {
@@ -132,123 +64,13 @@ body {
 
 #main-header {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 4em;
-    letter-spacing: .08em;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+    letter-spacing: .16em;
+    font-weight: 500;
     line-height: 3em;
     margin: none;
-    color: white;
-    /*background: url(https://comtechp7.hypotheses.org/files/2016/09/digital.gif);
-    filter: invert(100%);
-    -webkit-filter: invert(100%);*/
-    background-position: center;
-    background-size: auto;
-    /*-webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;*/
-}
-
-#info-wrapper {
-    width: 100%;
-    max-width: 100%;
-    max-height: 300px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: red;
-    border-top: 1px solid white;
-}
-
-#info-wrapper2 {
-    width: 100%;
-    max-width: 100%;
-    max-height: 260px;
-    background-color: green;
-}
-
-.box {
-    display: inline;
-    width: 25%;
-    height: 260px;
-    margin: 0;
-    text-align: center;
-}
-
-#info-container1 {
-    /*float: left;
-    max-width: 25%;
-    min-width: 25%;
-    max-height: inherit;
-    padding-top: 25px;*/
-    background-color: rgb(0, 37, 69);
-    text-align: center;
-}
-
-#webdev-info {
-    height: 250px;
-    width: 250px;
-    border-radius: 125px;
-    background-color: white;
-    text-align: center;
-}
-
-#info-container2 {
-    /*float: left;
-  max-width: 25%;
-  min-width: 25%;
-  max-height: inherit;
-  padding-top: 25px;*/
-    background-color: rgb(0, 77, 15);
-    text-align: center;
-}
-
-#network-info {
-    height: 250px;
-    width: 250px;
-    border-radius: 125px;
-    background-color: white;
-    text-align: center;
-}
-
-#info-container3 {
-    /*float: left;
-    max-width: 25%;
-    min-width: 25%;
-    max-height: inherit;
-    padding-top: 25px;*/
-    background-color: rgb(54, 0, 103);
-    text-align: center;
-}
-
-#gamedev-info {
-    height: 250px;
-    width: 250px;
-    border-radius: 125px;
-    background-color: white;
-    text-align: center;
-}
-
-#info-container4 {
-    /*float: left;
-    max-width: 25%;
-    min-width: 25%;
-    max-height: inherit;
-    padding-top: 25px;*/
-    background-color: rgb(126, 58, 0);
-    text-align: center;
-}
-
-#appdev-info {
-    height: 250px;
-    width: 250px;
-    border-radius: 125px;
-    background-color: white;
-    text-align: center;
-    text-align: center;
-}
-
-#events-wrapper {
-    height: 500px;
-    width: 100%;
-    max-width: 100%;
-    background-color: rgb(40, 40, 40);
+    background-image: url(http://img1.joyreactor.com/pics/post/gif-internet-creative-facebook-2268159.gif);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
