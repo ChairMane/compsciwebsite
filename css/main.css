@@ -1,0 +1,267 @@
+/* MAIN 1 */
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#page-wrapper {
+    height: 940px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: transparent;
+}
+
+#header-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #4c5560;
+    background-image: -webkit-radial-gradient(circle farthest-corner at 104% -25%, #a7afb9, transparent);
+    background-image: radial-gradient(circle farthest-corner at 104% -25%, #a7afb9, transparent);
+}
+
+#navbar-wrapper {
+    height: 95px;
+    background: transparent;
+    max-width: 100%;
+}
+
+#navbar-area {
+    position: static;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: block;
+    height: 70px;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-left: auto;
+    float: right;
+    clear: none;
+    text-align: center;
+}
+
+.nav-link {
+    width: 130px;
+    max-width: 130px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    padding: 14px 9px 12px;
+    font-family: 'Montserrat Semi Bold';
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-left: 1px solid white;
+}
+
+.w-nav-link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hvr-sweep-to-right {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+    color: rgb(20, 20, 20);
+}
+
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+#content-wrapper {
+    max-width: 100%;
+    height: 100%;
+    padding: 100px 60px 100px 60px;
+    /*background-color: rgb(89, 89, 89);*/
+}
+
+#content-wrapper2 {
+    max-width: 100%;
+    min-width: 5em;
+    max-height: 100%;
+    min-height: 100%;
+    padding: 10px 10px 10px 10px;
+    /*background-color: rgb(105, 105, 105);*/
+}
+
+#content-wrapper3 {
+    max-width: 100%;
+    height: 100%;
+    /*background-color: rgb(161, 161, 161);*/
+}
+
+#main-header {
+    text-align: center;
+    font-family: 'Montserrat Light';
+    font-size: 4em;
+    letter-spacing: .12em;
+    font-weight: 600;
+    line-height: 3em;
+    color: white;
+    margin: none;
+    /*background: url(https://comtechp7.hypotheses.org/files/2016/09/digital.gif);
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    background-position: center;
+    background-size: auto;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.6);
+    -webkit-background-clip: text;*/
+}
+
+.teams-wrapper {
+    width: 100%;
+    min-width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: inline-flex;
+    padding: none;
+}
+
+.teams-cover {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.teams-box {
+    text-align: center;
+    height: 100;
+    width: 25%;
+    margin-right: 0;
+    margin-left: 0;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+#gamedev-info {
+    background-color: rgb(82, 129, 48);
+    background-image: url('gamedev2.gif');
+    text-align: center;
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-right: 3px solid white;
+}
+
+#webdev-info {
+    background-color: rgb(255, 210, 0);
+    text-align: center;
+    background-image: url('webdev.gif');
+    background-size: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-right: 3px solid white;
+}
+
+#network-info {
+    background-color: rgb(13, 11, 12);
+    text-align: center;
+    background-image: url('network-security.gif');
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-right: 3px solid white;
+}
+
+#robot-info {
+    background-color: rgb(244, 244, 242);
+    text-align: center;
+    background-image: url('robelectronics.gif');
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info-title-wrapper {
+    height: 20%;
+    width: 100%;
+    padding-top: 10%;
+    text-align: center;
+    /*background-color: red;*/
+}
+
+.info-title {
+    font-family: 'Montserrat Light';
+    color: white;
+    font-size: 2em;
+}
+
+.teams-info-box {
+    max-width: 100%;
+    height: 40vh;
+    position: absolute;
+    bottom: 10%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.teams-info {
+    font-family: 'Montserrat Light';
+    color: white;
+    font-size: 1.3em;
+    line-height: 30px;
+    top: 0%;
+}
+
+#events-wrapper {
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(40, 40, 40);
+}

@@ -1,2 +1,0 @@
-# compsciwebsite
-website stuff
